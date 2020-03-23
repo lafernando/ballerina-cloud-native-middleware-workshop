@@ -1,19 +1,22 @@
 # Ballerina: Cloud-Native Middleware as a Programming Language
 
-[Ballerina](http://ballerina.io) is a programming language for the cloud-era; specializing in creating network connected applications. It brings together the higher level abstractions of middleware technologies, but with the flexibility of a general-purpose programming language. 
+[Ballerina](http://ballerina.io) is a programming language for the cloud-era; specializing in creating network connected applications. It brings together the higher level abstractions of middleware technologies, along with the flexibility of a general-purpose programming language. 
 
 In this workshop, we will take a look at how the Ballerina platform can be used effectively in creating microservices architectures. This is split into four main parts. 
 
 ## Part 1: Introduction to the Ballerina Language
 - Type system
+- Functions
+- Flow control
 - Network abstractions
-  - Services/Listeners/Clients
+  - Services/listeners/clients
   - Resources
   - Remote methods
-- Visualizing the code: sequence diagrams
 - Concurrency
+- Visualizing the code: sequence diagrams
 - Secure-by-default: taint analysis
 - Language Integrated Query
+- Java Interop
 
 ## Part 2: Network Awareness
 - Programming Model
