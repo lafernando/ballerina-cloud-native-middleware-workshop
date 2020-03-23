@@ -13,18 +13,21 @@ In this workshop, we will take a look at how the Ballerina platform can be used 
 - Language Integrated Query
 
 ## Part 2: Network Awareness
-- HTTP/S features/functionality
-- Resiliency
-- gRPC
-- NATS
-- WebSockets
+- Services/Listeners/Clients
+  - Resources
+  - Remote methods
+  - Resiliency
+- Protocols
+  - HTTP/S
+  - gRPC
+  - WebSockets
 
 ## Part 3: Observability
 - Metrics – Integrating with Prometheus
 - Distributed Tracing – OpenTracing
 
 ## Part 4: Deployment
-- Docker/Kubernetes/KNative
+- Docker/Kubernetes
 - AWS Lambda
 - GitHub Actions
 
