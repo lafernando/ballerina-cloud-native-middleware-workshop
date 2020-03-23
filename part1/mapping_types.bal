@@ -1,9 +1,16 @@
 import ballerina/io;
 
-type Person record {|
+type Person record {
     string name;
     int age;
-|};
+};
+
+// Student is a subtype of Person
+type Student record {
+    string name;
+    int age;
+    string college?;
+};
 
 type Scores record {
     int physics;
@@ -29,4 +36,12 @@ public function main() {
     s1["chemistry"] = 75;
     io:println(s1);
     io:println(s1["chemistry"]);
+
+    Student st1 = { name : "Jack", age: 25 };
+    st1.college = "Stanford";
+    string? jacksCollege = st1?.college;
+    if jacksCollege is string {
+        io:println("Jack's college is ", jacksCollege);
+    }
+    Person p2 = st1;
 }
