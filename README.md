@@ -4,7 +4,7 @@
 
 In this workshop, we will take a look at how the Ballerina platform can be used effectively in creating microservices architectures. This is split into four main parts. 
 
-## Part 1: Introduction to the Ballerina language
+## Part 1: Introduction to the Ballerina Language
 - Type system
 - Network abstractions
 - Visualizing the code: sequence diagrams
