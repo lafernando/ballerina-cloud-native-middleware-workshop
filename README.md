@@ -7,15 +7,17 @@ In this workshop, we will take a look at how the Ballerina platform can be used 
 ## Part 1: Introduction to the Ballerina Language
 - Type system
 - Network abstractions
+  - Services/Listeners/Clients
+  - Resources
+  - Remote methods
 - Visualizing the code: sequence diagrams
 - Concurrency
 - Secure-by-default: taint analysis
 - Language Integrated Query
 
 ## Part 2: Network Awareness
-- Services/Listeners/Clients
-  - Resources
-  - Remote methods
+- Programming Model
+  - Non-blocking I/O
   - Resiliency
 - Protocols
   - HTTP/S
