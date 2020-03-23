@@ -39,11 +39,42 @@ In this workshop, we will take a look at how the Ballerina platform can be used 
 ### Workshop Duration and Audience
 The workshop is designed to be finished in 2.5 hrs. The general audience consists of developers and architects. Basic programming knowledge in any language is required. 
 
-## Prerequisites
-### Ballerina
-### Visual Studio Code
-### Docker
-### Minikube/Docker Desktop
+---
 
+## Prerequisites
+
+### Ballerina
+Download and install the latest Ballerina [distribution](https://ballerina.io/downloads/) suitable for your operating system. 
+
+Run the following to test the installation:
+
+```bash
+$ ballerina version
+jBallerina 1.2.0
+Language specification 2020R1
+Ballerina tool 0.8.5
+```
+
+### Visual Studio Code
+Visual Studio Code is recommended as the editor for Ballerina projects. Install VS Code, and instal the Ballerina plugin by searching in "Extensions". 
+
+![VS Code Ballerina](images/vs-code-ballerina.png)
+
+### Docker/Kubernetes
+- Mac - Install [Docker Desktop](https://store.docker.com/editions/community/docker-ce-desktop-mac)
+- Windows - Install [Docker Desktop](https://store.docker.com/editions/community/docker-ce-desktop-windows)
+- Linux - Install [Minikube](https://github.com/kubernetes/minikube)
+
+### AWS CLI
+For configuring AWS Lambda, install the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html). 
+
+---
+
+#### Quick Reference
+ - [Ballerina by Example](https://ballerina.io/v1-2/learn/by-example/)
+ - [API Documentation](https://ballerina.io/v1-2/learn/api-docs/ballerina/)
+---
+
+#### Starting off with computer programing? check out the Ballerina book for beginners:
 [![Ballerina Book](https://images-na.ssl-images-amazon.com/images/I/41r9swbGcXL._SX348_BO1,204,203,200_.jpg)](https://www.amazon.com/Beginning-Ballerina-Programming-Novice-Professional/dp/1484251385/)
 
