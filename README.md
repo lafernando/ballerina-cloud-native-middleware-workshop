@@ -8,10 +8,6 @@ In this workshop, we will take a look at how the Ballerina platform can be used 
 - Type system
 - Functions
 - Flow control
-- Network abstractions
-  - Services/listeners/clients
-  - Resources
-  - Remote methods
 - Concurrency
 - Visualizing the code: sequence diagrams
 - Secure-by-default: taint analysis
@@ -19,6 +15,10 @@ In this workshop, we will take a look at how the Ballerina platform can be used 
 - Java Interop
 
 ## Part 2: Network Awareness
+- Network abstractions
+  - Services/listeners/clients
+  - Resources
+  - Remote methods
 - Programming Model
   - Non-blocking I/O
   - Resiliency
