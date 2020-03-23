@@ -66,5 +66,6 @@ Visual Studio Code is recommended as the editor for Ballerina projects. Install 
 ### AWS CLI
 For configuring AWS Lambda, install the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html). 
 
+### Learn programming with Ballerina?
 [![Ballerina Book](https://images-na.ssl-images-amazon.com/images/I/41r9swbGcXL._SX348_BO1,204,203,200_.jpg)](https://www.amazon.com/Beginning-Ballerina-Programming-Novice-Professional/dp/1484251385/)
 
