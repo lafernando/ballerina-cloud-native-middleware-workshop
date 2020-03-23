@@ -1,4 +1,4 @@
-# Ballerina: Cloud Native Middleware as a Programming Language
+# Ballerina: Cloud-Native Middleware as a Programming Language
 
 [Ballerina](http://ballerina.io) is a programming language for the cloud-era; specializing in creating network connected applications. It brings together the higher level abstractions of middleware technologies, but with the flexibility of a general-purpose programming language. 
 
@@ -40,4 +40,5 @@ The workshop is designed to be finished in 2.5 hrs. The general audience consist
 ### Docker
 ### Minikube/Docker Desktop
 
-[Ballerina Book](https://www.amazon.com/Beginning-Ballerina-Programming-Novice-Professional/dp/1484251385/)
+[![Ballerina Book](https://images-na.ssl-images-amazon.com/images/I/41r9swbGcXL._SX348_BO1,204,203,200_.jpg)](https://www.amazon.com/Beginning-Ballerina-Programming-Novice-Professional/dp/1484251385/)
+
