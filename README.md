@@ -70,6 +70,6 @@ For configuring AWS Lambda, install the [AWS CLI](https://docs.aws.amazon.com/cl
 
 ---
 
-### Learn programming with Ballerina?
+### Starting off with computer programing? Check out the Ballerina book for beginners:
 [![Ballerina Book](https://images-na.ssl-images-amazon.com/images/I/41r9swbGcXL._SX348_BO1,204,203,200_.jpg)](https://www.amazon.com/Beginning-Ballerina-Programming-Novice-Professional/dp/1484251385/)
 
