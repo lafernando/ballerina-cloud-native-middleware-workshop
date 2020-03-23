@@ -28,4 +28,13 @@ In this workshop, we will take a look at full end-to-end development of a micros
 - AWS Lambda
 - GitHub Actions
 
+### Workshop Duration and Audience
+The workshop is designed to be finished in 2.5 hrs. The general audience consists of developers and architects. Basic programming knowledge in any language is required. 
+
+## Prerequisites
+### Ballerina
+### Visual Studio Code
+### Docker
+### Minikube/Docker Desktop
+
 [Ballerina Book](https://www.amazon.com/Beginning-Ballerina-Programming-Novice-Professional/dp/1484251385/)
