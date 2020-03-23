@@ -2,7 +2,7 @@
 
 [Ballerina](http://ballerina.io) is a programming language for the cloud-era; specializing in creating network connected applications. It brings together the higher level abstractions of middleware technologies, but with the flexibility of a general-purpose programming language. 
 
-In this workshop, we will take a look at full end-to-end development of a microservices architecture with Ballerina. This is split into four main parts. 
+In this workshop, we will take a look at how the Ballerina platform can be used effectively in creating microservices architectures. This is split into four main parts. 
 
 ## Part 1: Introduction to the Ballerina language
 - Type system
