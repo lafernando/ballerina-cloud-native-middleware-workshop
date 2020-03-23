@@ -44,6 +44,15 @@ The workshop is designed to be finished in 2.5 hrs. The general audience consist
 ### Ballerina
 Download and install the latest Ballerina [distribution](https://ballerina.io/downloads/) suitable for your operating system. 
 
+Run the following to test the installation:
+
+```bash
+$ ballerina version
+jBallerina 1.2.0
+Language specification 2020R1
+Ballerina tool 0.8.5
+```
+
 ### Visual Studio Code
 Visual Studio Code is recommended as the editor for Ballerina projects. Install VS Code, and instal the Ballerina plugin by searching in "Extensions". 
 
