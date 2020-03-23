@@ -40,8 +40,15 @@ In this workshop, we will take a look at how the Ballerina platform can be used 
 The workshop is designed to be finished in 2.5 hrs. The general audience consists of developers and architects. Basic programming knowledge in any language is required. 
 
 ## Prerequisites
+
 ### Ballerina
+Download and install the latest Ballerina [distribution](https://ballerina.io/downloads/) suitable for your operating system. 
+
 ### Visual Studio Code
+Visual Studio Code is recommended as the editor for Ballerina projects. Install VS Code, and instal the Ballerina plugin by searching in "Extensions". 
+
+![VS Code Ballerina](images/vs-code-ballerina.png)
+
 ### Docker
 ### Minikube/Docker Desktop
 
