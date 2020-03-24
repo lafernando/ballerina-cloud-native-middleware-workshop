@@ -4,43 +4,6 @@
 
 In this workshop, we will take a look at how the Ballerina platform can be used effectively in creating microservices architectures. This is split into four main parts. 
 
-## Part 1: Introduction to the Ballerina Language
-- Type system
-- Functions
-- Flow control
-- Concurrency
-- Visualizing the code: sequence diagrams
-- Secure-by-default: taint analysis
-- Language Integrated Query
-- Java Interop
-
-## Part 2: Network Awareness
-- Network abstractions
-  - Services/listeners/clients
-  - Resources
-  - Remote methods
-- Programming Model
-  - Non-blocking I/O
-  - Resiliency
-- Protocols
-  - HTTP/S
-  - gRPC
-  - WebSockets
-
-## Part 3: Observability
-- Metrics – Integrating with Prometheus
-- Distributed Tracing – OpenTracing
-
-## Part 4: Deployment
-- Docker/Kubernetes
-- AWS Lambda
-- GitHub Actions
-
-### Workshop Duration and Audience
-The workshop is designed to be finished in 3 hrs. The general audience consists of developers and architects. Basic programming knowledge in any language is required. 
-
----
-
 ## Prerequisites
 
 ### Ballerina
@@ -67,6 +30,43 @@ Visual Studio Code is recommended as the editor for Ballerina projects. Install 
 
 ### AWS CLI
 For configuring AWS Lambda, install the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html). 
+
+---
+
+## Part 1: [Introduction to the Ballerina Language](./part1)
+- Type system
+- Functions
+- Flow control
+- Concurrency
+- Visualizing the code: sequence diagrams
+- Secure-by-default: taint analysis
+- Language Integrated Query
+- Java Interop
+
+## Part 2: [Network Awareness](./part2)
+- Network abstractions
+  - Services/listeners/clients
+  - Resources
+  - Remote methods
+- Programming Model
+  - Non-blocking I/O
+  - Resiliency
+- Protocols
+  - HTTP/S
+  - gRPC
+  - WebSockets
+
+## Part 3: [Observability](./part3)
+- Metrics – Integrating with Prometheus
+- Distributed Tracing – OpenTracing
+
+## Part 4: [Deployment](./part4)
+- Docker/Kubernetes
+- AWS Lambda
+- GitHub Actions
+
+### Workshop Duration and Audience
+The workshop is designed to be finished in 3 hrs. The general audience consists of developers and architects. Basic programming knowledge in any language is required. 
 
 ---
 
