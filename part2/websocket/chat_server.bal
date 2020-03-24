@@ -4,7 +4,7 @@ import ballerina/system;
 @http:ServiceConfig {
     basePath: "/"
 }
-service chatAppUpgrader on new http:Listener(9090) {
+service ChatAppUpgrader on new http:Listener(9090) {
 
     @http:ResourceConfig {
         webSocketUpgrade: {
