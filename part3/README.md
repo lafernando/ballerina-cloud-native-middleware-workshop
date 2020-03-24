@@ -10,4 +10,4 @@ http://localhost:3000/
 
 http://localhost:16686/
 
-ballerina run geo_service.bal --b7a.observability.enabled=true
+ballerina run ../part2/geo_service.bal --b7a.observability.enabled=true
