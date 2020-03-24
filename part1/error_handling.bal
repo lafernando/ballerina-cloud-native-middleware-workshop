@@ -20,7 +20,7 @@ public function main() {
         io:println("Invalid number: ", input);
     }
 
-    error? err = fileOp();
+    error? err = fileOp(); // we can also use "check"
     if err is FileError {
         io:println("Error: ", err);
     }
