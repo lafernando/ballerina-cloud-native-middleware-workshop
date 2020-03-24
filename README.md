@@ -33,7 +33,7 @@ For configuring AWS Lambda, install the [AWS CLI](https://docs.aws.amazon.com/cl
 
 ---
 
-## Part 1: Introduction to the Ballerina Language
+## Part 1: [Introduction to the Ballerina Language](./part1)
 - Type system
 - Functions
 - Flow control
@@ -43,7 +43,7 @@ For configuring AWS Lambda, install the [AWS CLI](https://docs.aws.amazon.com/cl
 - Language Integrated Query
 - Java Interop
 
-## Part 2: Network Awareness
+## Part 2: [Network Awareness](./part2)
 - Network abstractions
   - Services/listeners/clients
   - Resources
@@ -56,11 +56,11 @@ For configuring AWS Lambda, install the [AWS CLI](https://docs.aws.amazon.com/cl
   - gRPC
   - WebSockets
 
-## Part 3: Observability
+## Part 3: [Observability](./part3)
 - Metrics – Integrating with Prometheus
 - Distributed Tracing – OpenTracing
 
-## Part 4: Deployment
+## Part 4: [Deployment](./part4)
 - Docker/Kubernetes
 - AWS Lambda
 - GitHub Actions
