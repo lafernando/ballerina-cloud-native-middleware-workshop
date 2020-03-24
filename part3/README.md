@@ -6,6 +6,8 @@ docker run -p 5775:5775/udp -p6831:6831/udp -p6832:6832/udp -p5778:5778 -p16686:
 
 https://grafana.com/dashboards/5841
 
+http://localhost:3000/
+
 http://localhost:16686/
 
 ballerina run geo_service.bal --b7a.observability.enabled=true
