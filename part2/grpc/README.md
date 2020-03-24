@@ -1,19 +1,21 @@
-ballerina grpc --input calculator.proto --output stubs
+```
+ballerina grpc --input hashservice.proto --output stubs
 
 ballerina new hash_service
 cd hash_service
 ballerina add service
 
-cp ../stubs/calculator_pb.bal src/service/
+cp ../stubs/hashservice_pb.bal src/service/
+```
 
-calculator_service.bal
+hash_service.bal
 ```ballerina
 import ballerina/grpc;
 import ballerina/crypto;
 
-service HelloWorld on new grpc:Listener(9090) {
+service HashService on new grpc:Listener(9090) {
 
-    resource function hello(grpc:Caller caller, string payload, grpc:Headers headers) returns error? {
+    resource function hash(grpc:Caller caller, string payload, grpc:Headers headers) returns error? {
         byte[] hash = crypto:hashMd5(payload.toBytes());
         grpc:Headers resHeader = new;
         check caller->send(hash.toBase16(), resHeader);
@@ -22,28 +24,31 @@ service HelloWorld on new grpc:Listener(9090) {
     
 }
 ```
+```
 ballerina build -a
 ballerina run target/bin/service.jar
 
 ballerina new hash_client
 cd hash_client/
 ballerina add client
-cp ../stubs/calculator_pb.bal src/client/
+cp ../stubs/hashservice_pb.bal src/client/
+```
 
-calculator_client.bal
+hash_client.bal
 ```ballerina
 import ballerina/grpc;
 import ballerina/io;
 
 public function main(string... args) returns error? {
     string payload = args[0];
-    CalculatorBlockingClient calClient = new ("http://localhost:9090");
+    HashServiceBlockingClient hashClient = new ("http://localhost:9090");
     grpc:Headers headers = new;
-    var [result, resHeaders] = check calClient->hash(payload, headers);
+    var [result, resHeaders] = check hashClient->hash(payload, headers);
     io:println(result);
 }
 ```
-
+```
 ballerina build -a
 ballerina run target/bin/client.jar "pojgwpreowohpoewrihjpwoeirhpweoirhpewoihwe"
+```
 
