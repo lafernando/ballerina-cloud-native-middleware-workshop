@@ -39,7 +39,7 @@ public function main() {
 
     Student st1 = { name : "Jack", age: 25 };
     st1.college = "Stanford";
-    string? jacksCollege = st1?.college;
+    string? jacksCollege = st1?.college; // optional field access
     if jacksCollege is string {
         io:println("Jack's college is ", jacksCollege);
     }
