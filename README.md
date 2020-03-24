@@ -4,6 +4,35 @@
 
 In this workshop, we will take a look at how the Ballerina platform can be used effectively in creating microservices architectures. This is split into four main parts. 
 
+## Prerequisites
+
+### Ballerina
+Download and install the latest Ballerina [distribution](https://ballerina.io/downloads/) suitable for your operating system. 
+
+Run the following to test the installation:
+
+```bash
+$ ballerina version
+jBallerina 1.2.0
+Language specification 2020R1
+Ballerina tool 0.8.5
+```
+
+### Visual Studio Code
+Visual Studio Code is recommended as the editor for Ballerina projects. Install VS Code, and instal the Ballerina plugin by searching in "Extensions". 
+
+![VS Code Ballerina](images/vs-code-ballerina.png)
+
+### Docker/Kubernetes
+- Mac - Install [Docker Desktop](https://store.docker.com/editions/community/docker-ce-desktop-mac)
+- Windows - Install [Docker Desktop](https://store.docker.com/editions/community/docker-ce-desktop-windows)
+- Linux - Install [Minikube](https://github.com/kubernetes/minikube)
+
+### AWS CLI
+For configuring AWS Lambda, install the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html). 
+
+---
+
 ## Part 1: Introduction to the Ballerina Language
 - Type system
 - Functions
@@ -38,35 +67,6 @@ In this workshop, we will take a look at how the Ballerina platform can be used 
 
 ### Workshop Duration and Audience
 The workshop is designed to be finished in 3 hrs. The general audience consists of developers and architects. Basic programming knowledge in any language is required. 
-
----
-
-## Prerequisites
-
-### Ballerina
-Download and install the latest Ballerina [distribution](https://ballerina.io/downloads/) suitable for your operating system. 
-
-Run the following to test the installation:
-
-```bash
-$ ballerina version
-jBallerina 1.2.0
-Language specification 2020R1
-Ballerina tool 0.8.5
-```
-
-### Visual Studio Code
-Visual Studio Code is recommended as the editor for Ballerina projects. Install VS Code, and instal the Ballerina plugin by searching in "Extensions". 
-
-![VS Code Ballerina](images/vs-code-ballerina.png)
-
-### Docker/Kubernetes
-- Mac - Install [Docker Desktop](https://store.docker.com/editions/community/docker-ce-desktop-mac)
-- Windows - Install [Docker Desktop](https://store.docker.com/editions/community/docker-ce-desktop-windows)
-- Linux - Install [Minikube](https://github.com/kubernetes/minikube)
-
-### AWS CLI
-For configuring AWS Lambda, install the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html). 
 
 ---
 
