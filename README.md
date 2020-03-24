@@ -37,7 +37,7 @@ In this workshop, we will take a look at how the Ballerina platform can be used 
 - GitHub Actions
 
 ### Workshop Duration and Audience
-The workshop is designed to be finished in 2.5 hrs. The general audience consists of developers and architects. Basic programming knowledge in any language is required. 
+The workshop is designed to be finished in 3 hrs. The general audience consists of developers and architects. Basic programming knowledge in any language is required. 
 
 ---
 
