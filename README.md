@@ -66,7 +66,7 @@ For configuring AWS Lambda, install the [AWS CLI](https://docs.aws.amazon.com/cl
 - GitHub Actions
 
 ### Workshop Duration and Audience
-The workshop is designed to be finished in 3 hrs. The general audience consists of developers and architects. Basic programming knowledge in any language is required. 
+The workshop is designed to be finished in 5 hrs. The general audience consists of developers and architects. Prior basic knowledge of a programming language is required. 
 
 ---
 
