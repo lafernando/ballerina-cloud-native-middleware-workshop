@@ -4,6 +4,8 @@
 
 In this workshop, we will take a look at how the Ballerina platform can be used effectively in creating microservices architectures. This is split into four main parts. 
 
+A recording of a virtual session of this workshop can be found [here](https://www.youtube.com/watch?v=NFFbSRnzg3k).
+
 ## Prerequisites
 
 ### Ballerina
