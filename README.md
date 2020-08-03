@@ -33,7 +33,7 @@ Visual Studio Code is recommended as the editor for Ballerina projects. Install 
 ### AWS CLI
 For configuring AWS Lambda, install the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html). 
 
-### AWS CLI
+### Azure CLI
 For configuring Azure Functions, install the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest). 
 
 ---
