@@ -5,11 +5,11 @@ type Person record {
     int age;
 };
 
-type Result record {
+type Result record {|
     string name;
     string college;
     int grade;
-};
+|};
 
 public function main() {
     map<int> grades = {"Jack": 95, "Anne": 90, "John": 80, "Bill": 55};

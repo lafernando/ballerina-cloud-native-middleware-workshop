@@ -15,9 +15,9 @@ Run the following to test the installation:
 
 ```bash
 $ ballerina version
-jBallerina 1.2.0
+jBallerina 1.2.6
 Language specification 2020R1
-Ballerina tool 0.8.5
+Update Tool 0.8.8
 ```
 
 ### Visual Studio Code
@@ -65,6 +65,7 @@ For configuring AWS Lambda, install the [AWS CLI](https://docs.aws.amazon.com/cl
 ## Part 4: [Deployment](./part4)
 - Docker/Kubernetes
 - AWS Lambda
+- Azure Functions
 - GitHub Actions
 
 ### Workshop Duration and Audience
@@ -73,10 +74,10 @@ The workshop is designed to be finished in 5 hrs. The general audience consists 
 ---
 
 #### Quick Reference
- - [Ballerina by Example](https://ballerina.io/v1-2/learn/by-example/)
- - [API Documentation](https://ballerina.io/v1-2/learn/api-docs/ballerina/)
+ - [Ballerina by Example](https://ballerina.io/learn/by-example/)
+ - [API Documentation](https://ballerina.io/learn/api-docs/ballerina/)
 ---
 
-#### Starting off with computer programing? check out the Ballerina book for beginners:
+#### New to computer programing? check out the Ballerina book for beginners:
 [![Ballerina Book](https://images-na.ssl-images-amazon.com/images/I/41r9swbGcXL._SX348_BO1,204,203,200_.jpg)](https://www.amazon.com/Beginning-Ballerina-Programming-Novice-Professional/dp/1484251385/)
 
